@@ -1,0 +1,22 @@
+Finding R^BIP_3(5,7)
+
+Order & number of counterexample graphs:
+0 1
+1 1
+2 2
+3 3
+4 7
+5 1
+6 0
+
+1 extremal graph(s):
+
+graph r3_5_7e1 {
+    0; 1; 2; 3; 4;
+    0 -- 4; 1 -- 4; 2 -- 4; 3 -- 4;
+    [[4], [4], [4], [4], [0, 1, 2, 3]]
+}
+
+R^BIP_3(5,7) = 6
+1 extremal graph(s)
+running time:0.003989696502685547sec

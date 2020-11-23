@@ -1,0 +1,37 @@
+Finding R^PG_2(4,4)
+
+Order & number of counterexample graphs:
+0 1
+1 1
+2 2
+3 4
+4 0
+
+4 extremal graph(s):
+
+graph r2_4_4e1 {
+    0; 1; 2;
+    [[], [], []]
+}
+
+graph r2_4_4e2 {
+    0; 1; 2;
+    0 -- 2;
+    [[2], [], [0]]
+}
+
+graph r2_4_4e3 {
+    0; 1; 2;
+    0 -- 2; 1 -- 2;
+    [[2], [2], [0, 1]]
+}
+
+graph r2_4_4e4 {
+    0; 1; 2;
+    0 -- 1; 0 -- 2; 1 -- 2;
+    [[1, 2], [0, 2], [0, 1]]
+}
+
+R^PG_2(4,4) = 4
+4 extremal graph(s)
+running time:0.0040283203125sec

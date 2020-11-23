@@ -1,0 +1,25 @@
+Finding R^PG_1(4,3)
+
+Order & number of counterexample graphs:
+0 1
+1 1
+2 2
+3 2
+4 0
+
+2 extremal graph(s):
+
+graph r1_4_3e1 {
+    0; 1; 2;
+    [[], [], []]
+}
+
+graph r1_4_3e2 {
+    0; 1; 2;
+    0 -- 2;
+    [[2], [], [0]]
+}
+
+R^PG_1(4,3) = 4
+2 extremal graph(s)
+running time:0.0009975433349609375sec

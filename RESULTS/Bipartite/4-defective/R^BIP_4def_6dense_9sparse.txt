@@ -1,0 +1,23 @@
+Finding R^BIP_4(6,9)
+
+Order & number of counterexample graphs:
+0 1
+1 1
+2 2
+3 3
+4 7
+5 13
+6 1
+7 0
+
+1 extremal graph(s):
+
+graph r4_6_9e1 {
+    0; 1; 2; 3; 4; 5;
+    0 -- 5; 1 -- 5; 2 -- 5; 3 -- 5; 4 -- 5;
+    [[5], [5], [5], [5], [5], [0, 1, 2, 3, 4]]
+}
+
+R^BIP_4(6,9) = 7
+1 extremal graph(s)
+running time:0.010971307754516602sec

@@ -1,0 +1,21 @@
+Finding R^BIP_2(4,5)
+
+Order & number of counterexample graphs:
+0 1
+1 1
+2 2
+3 3
+4 1
+5 0
+
+1 extremal graph(s):
+
+graph r2_4_5e1 {
+    0; 1; 2; 3;
+    0 -- 3; 1 -- 3; 2 -- 3;
+    [[3], [3], [3], [0, 1, 2]]
+}
+
+R^BIP_2(4,5) = 5
+1 extremal graph(s)
+running time:0.001996278762817383sec
