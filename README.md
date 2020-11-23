@@ -26,6 +26,11 @@ To compute the _defective Ramsey number at stated subclass with initial base gra
 
     > defectiveramsey.py --base 1 4 7 "bip"
 
+C represents graph subclass. We just implement for two graph subclass.
+"bip": can be used for bipartite graphs
+"pg": can be used for perfect graphs
+"all": can be used for all graphs without restriction. 
+
 
 *All three files may be used as importable modules. See the individual
 files for API documentation. Data formats are described in
