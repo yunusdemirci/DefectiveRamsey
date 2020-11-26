@@ -5,7 +5,8 @@ Python 3 code for dealing with finite, simple graphs. Allows for
 computation of defective Ramsey numbers and associated extremal
 graphs.
 
-This package is a companion to ... by ...
+This package is a companion to Defective Ramsey Numbers and Cocolorings on Some
+Subclasses of Perfect Graphs by Yunus Emre Demirci, Tınaz Ekim and Mehmet Akif Yıldız
 
 Package repository: https://github.com/yunusdemirci/DefectiveRamsey
 
