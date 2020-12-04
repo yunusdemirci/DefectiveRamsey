@@ -33,8 +33,7 @@ C represents graph subclass. We just implement for two graph subclass.
 "all": can be used for all graphs without restriction. 
 
 
-*All three files may be used as importable modules. See the individual
-files for API documentation. Data formats are described in
+*See the individual files for API documentation. Data formats are described in
 `isograph.py`.
 
 Files
@@ -44,7 +43,7 @@ Files
   graphs & graph isomorphism.
 * `gengraph.py` -- Importable module. Functions for finding defective
   Ramsey numbers & related extremal graphs. Requires `isograph.py`.
-* `defectiveramsey.py` -- Executable program/importable module. Computes
+* `defectiveramsey.py` -- Executable program. Computes
   defectve Ramsey numbers. Requires `isograph.py` and `gengraph.py`.
 * `RESULTS` -- Subdirectory for text files holding output of
   `defectiveramsey.py`. Files named `R^*_#def_#dense_#sparse.txt`,
@@ -52,4 +51,5 @@ Files
   numbers in the filename are the command-line parameters. For example,
   file `R^BIP_1def_4dense_4sparse.txt` holds the output from the command
   `defectiveramsey.py 1 4 4 "bip" `.
+* `Defective Cocoloring`. All executable programs and results for defective cocoloring version. For detailed information, please read `README.md` file in subdirectory
 * `README.md` -- This file.
